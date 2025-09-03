@@ -41,8 +41,20 @@ public class Operator {
         double y = 2.5;
         double z = 3.5;
         double u = (x+y)*(z-y)/(x+z);
+        System.out.println(u);
+        System.out.println();
 
+        // Bitwise Operator
 
+        int s = 5;
+        int w = 3;
+
+        System.out.println(s&w);
+        System.out.println(s|w);
+        System.out.println(s^w);
+        System.out.println(~s);
+        System.out.println(s<<4);
+        System.out.println(s>>4);
 
     }
 }
