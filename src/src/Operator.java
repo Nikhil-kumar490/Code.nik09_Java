@@ -37,6 +37,10 @@ public class Operator {
         System.out.println(n);
         System.out.println(v);
 
+        double x = 1.5;
+        double y = 2.5;
+        double z = 3.5;
+        double u = (x+y)*(z-y)/(x+z);
 
 
 
