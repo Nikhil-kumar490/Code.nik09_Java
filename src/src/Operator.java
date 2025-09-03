@@ -1,0 +1,44 @@
+public class Operator {
+    public static void main(String[] args) {
+
+        int mySalary = 1000;
+        int bounce = 500;
+        int total = mySalary+bounce;
+        System.out.println(total);
+
+        int yearly = total * 12;
+        System.out.println(yearly);
+
+        System.out.println();
+
+        int child = yearly/3;
+        System.out.println(child);
+
+        System.out.println();
+
+        int a = 5;
+        double b= 10.4;
+        System.out.println(a+b);
+
+        System.out.println();
+
+        float c = 12.23f;
+        long d = 3254l;
+        System.out.println(c+d);
+
+        // Increment and Decrement
+        int m =10;
+        m++;
+        System.out.println(m);
+        System.out.println();
+
+        int n = 10;
+        int v = --n;
+        System.out.println(n);
+        System.out.println(v);
+
+
+
+
+    }
+}
